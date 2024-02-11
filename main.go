@@ -1,7 +1,8 @@
 package main
 
-import sessionone "golang-bootcamp/session_one"
+import sessiontwo "golang-bootcamp/session_two"
 
 func main()  {
-	sessionone.MiniChallengeOne()
+	// sessionone.MiniChallengeOne()
+	sessiontwo.MiniChallengeTwo()
 }
