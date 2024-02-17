@@ -1,8 +1,16 @@
 package main
 
-import sessiontwo "golang-bootcamp/session_two"
+import (
+	"golang-bootcamp/session_three"
+	"os"
+	"strings"
+)
 
-func main()  {
+func main() {
 	// sessionone.MiniChallengeOne()
-	sessiontwo.MiniChallengeTwo()
+	//sessiontwo.MiniChallengeTwo()
+
+	var args = os.Args[1:2]
+	studentName := strings.Join(args, "")
+	session_three.MiniChallengeThree(studentName)
 }
